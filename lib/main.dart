@@ -1,14 +1,14 @@
-import 'package:database_intro/ui/InstagramScreen.dart';
+import 'package:database_intro/ui/Instagram.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import  './my_flutter_app_icons.dart' as CustomIcons;
 import './ui/ManageScreens.dart';
 import './ui/EmptyScreen.dart';
-import './ui/FacebookPosts.dart';
+import './ui/Facebook.dart';
 import './ui/NewPostScreen.dart';
 import './ui/Settings.dart';
-import './ui/TwitterScreen.dart';
+import './ui/Twitter.dart';
 
 List<BottomNavigationBarItem> _bottomBarItems;
 List<Widget> _screens;
