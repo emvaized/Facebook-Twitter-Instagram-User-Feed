@@ -1,12 +1,12 @@
 import 'dart:convert';
 
-import 'package:database_intro/ui/showListOfPosts.dart';
+import 'package:database_intro/models/showListOfPosts.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
-import './login_presenter.dart';
+import '../utils/Instagram/Module/Login/login_presenter.dart';
 
 var token;
 var _fetchedInstagramPosts;

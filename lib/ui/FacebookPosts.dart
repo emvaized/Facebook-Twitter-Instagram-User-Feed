@@ -4,7 +4,7 @@ import 'package:flutter_facebook_login/flutter_facebook_login.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../ui/showListOfPosts.dart';
+import 'package:database_intro/models/showListOfPosts.dart';
 
 bool isLoggedIn = false;
 var profileData;
@@ -63,7 +63,6 @@ class _FacebookState extends State<Facebook> {
     var profile = json.decode(graphResponse.body);
     var fetchedPosts = profile['feed']['data'];
     var profileName = profile['name'];
-    var userId = profile['id'];
     var userIdResponse = await http.get(
         "https://graph.facebook.com/v3.2/me/accounts?access_token=$facebookLoginToken");
     print('.........................');

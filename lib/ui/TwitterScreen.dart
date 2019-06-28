@@ -5,7 +5,7 @@ import 'package:flutter_twitter_login/flutter_twitter_login.dart';
 import 'package:http/http.dart' as http;
 import 'package:random_string/random_string.dart' as random;
 
-import '../ui/showListOfPosts.dart';
+import 'package:database_intro/models/showListOfPosts.dart';
 
 bool isLoggedIn = false;
 var _fetchedData;

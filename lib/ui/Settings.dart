@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 //import 'package:shared_preferences/shared_preferences.dart';
-import './AddScreen.dart';
+import './ManageScreens.dart';
 
 class SettingsScreen extends StatefulWidget {
   final bool facebookEnabled;

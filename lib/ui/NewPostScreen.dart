@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import './AddScreen.dart';
 
 class NewPost extends StatefulWidget {
    bool facebookEnabled;
@@ -53,7 +52,6 @@ class _NewPostState extends State<NewPost> {
                                 maxLines: null,
                                 controller: _newPostController,
                                 decoration: InputDecoration(helperText: 'Enter your post here'),
-                                //cursorColor: Colors.black,
                               ),
                           ),
                         ),

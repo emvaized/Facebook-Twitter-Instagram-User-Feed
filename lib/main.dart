@@ -1,10 +1,10 @@
-import 'package:database_intro/utils/Instagram/Module/Login/login_view.dart';
+import 'package:database_intro/ui/InstagramScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import  './my_flutter_app_icons.dart' as CustomIcons;
-import './ui/AddScreen.dart';
-import './ui/BlankScreen.dart';
+import './ui/ManageScreens.dart';
+import './ui/EmptyScreen.dart';
 import './ui/FacebookPosts.dart';
 import './ui/NewPostScreen.dart';
 import './ui/Settings.dart';
