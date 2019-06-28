@@ -1,8 +1,3 @@
-# database_intro
+# Poster
 
-A new Flutter project.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+Приложение позволяет залогиниться через свои учетные записи в Facebook, Twitter и Instagram и увидеть свои посты на трех отдельных экранах. Есть функциональность добавления/удаления экранов.
